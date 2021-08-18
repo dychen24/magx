@@ -14,6 +14,8 @@ We present MagX, a fully untethered on-body hand tracking system utilizing passi
 
 See https://www.youtube.com/watch?v=dQw4w9WgXcQ for more details.
 
+![plot](./Img/illustration_magtrac_light_v3.pdf)
+
 # License
 
 MagX is licensed under the MIT license included in the [LICENSE](./LICENSE) file.
@@ -71,7 +73,7 @@ pip install pandas, keyboard, torchsummary, parse, pyqt5
     cmake ../ceres-solver-2.0.0
     make -j3
     make install
-    
+    ```
 3. Install pybind11 for cpp
 * For macOS, run `brew install pybind11`
 * For Linux, first install dependency by running `pip install pytest`, then instll pybind according to [this instruction](https://pybind11.readthedocs.io/en/stable/basics.html).
