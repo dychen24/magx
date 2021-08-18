@@ -2,7 +2,7 @@
 
 This directory contains codes and PCB files for MagX, as described in :
 
->  [_MagX: Wearable, Untethered Hands Trackingwith Passive Magnets_](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+>  [_MagX: Wearable, Untethered Hands Tracking with Passive Magnets_](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 >  Dongyao Chen, Mingke Wang, Chenxi He, Qing Luo,
 >  Yasha Iravantchi, Alanson Sample, Kang G. Shin and Xinbing Wang.
 >  In Proceedings of the ACM MobiCom 2021.
