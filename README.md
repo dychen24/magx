@@ -51,35 +51,35 @@ pip install pandas, keyboard, torchsummary, parse, pyqt5
 2. Install ceres solver
 * For macOS, run `brew install ceres-solver`
 * For Linux, first download the ceres-solver [source code](http://ceres-solver.org/installation.html). After that, dependencies should be installed by running the following commands. 
-```
-# CMake
-sudo apt-get install cmake
-# google-glog + gflags
-sudo apt-get install libgoogle-glog-dev libgflags-dev
-# BLAS & LAPACK
-sudo apt-get install libatlas-base-dev
-# Eigen3
-sudo apt-get install libeigen3-dev
-# SuiteSparse and CXSparse (optional)
-sudo apt-get install libsuitesparse-dev
-```
-Finally, ceres solver can be build and installed by running the following commands.
-```
-tar zxf ceres-solver-2.0.0.tar.gz
-mkdir ceres-bin
-cd ceres-bin
-cmake ../ceres-solver-2.0.0
-make -j3
-make install
-```
+    ```
+    # CMake
+    sudo apt-get install cmake
+    # google-glog + gflags
+    sudo apt-get install libgoogle-glog-dev libgflags-dev
+    # BLAS & LAPACK
+    sudo apt-get install libatlas-base-dev
+    # Eigen3
+    sudo apt-get install libeigen3-dev
+    # SuiteSparse and CXSparse (optional)
+    sudo apt-get install libsuitesparse-dev
+    ```
+    Finally, ceres solver can be build and installed on linux by running the following commands.
+    ```
+    tar zxf ceres-solver-2.0.0.tar.gz
+    mkdir ceres-bin
+    cd ceres-bin
+    cmake ../ceres-solver-2.0.0
+    make -j3
+    make install
+    
 3. Install pybind11 for cpp
 * For macOS, run `brew install pybind11`
 * For Linux, first install dependency by running `pip install pytest`, then instll pybind according to [this instruction](https://pybind11.readthedocs.io/en/stable/basics.html).
 4. Install customized cpp solver
-```
-cd Codes/cpp_solver 
-pip install ./
-```
+    ```
+    cd Codes/cpp_solver 
+    pip install ./
+    
 
 # Run a quick demo
 1. Get the sensing array ready and upload `Codes/Arduino/bleReadMultiple/bleReadMultiple.ino` to the sensing array
