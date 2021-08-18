@@ -21,9 +21,9 @@ MagX is licensed under the MIT license included in the [LICENSE](./LICENSE) file
 # Setup
 
 To use MagX, you'll need the following tools and hardwares:
-  * [MagX sensing array](##magx-sensing-array-manufacturing)
-  * [Arduino IDE](##arduino-ide-setup)
-  * [conda](##python-environment-setup)
+  * [MagX sensing array](#magx-sensing-array-manufacturing)
+  * [Arduino IDE](#arduino-ide-setup)
+  * [conda](#python-environment-setup)
 
 The instructions below have been tested using macOS Big Sur, and Ubuntu 20.04. 
 
@@ -35,9 +35,10 @@ To learn more about the manufacturing of the MagX sensing array, please see the 
 2. Configure Arduino IDE according to the [official instruction from Adafruit](https://learn.adafruit.com/bluefruit-nrf52-feather-learning-guide/arduino-bsp-setup)
 3. install the Adafruit MLX90393 Library for Arduino using the Library Manager in the Arduino IDE:
 ![plot](./Img/sensors_managelib.png)
+
 Click the Manage Libraries ... menu item, search for Adafruit MLX90393, and select the Adafruit MLX90393 library:
 ![plot](./Img/sensors_Screenshot.png)
-4. (Optional) Replace `Adafruit_MLX90393.cpp` and `Adafruit_MLX90393.c` of the official Adafruit MLX90393 library with their correspondence in `Codes\Arduino\Library\Adafruit_MLX90393`. The official libraries are typically located in `/home/Sketchbook/Libraries` on Linux, and `Arduino/Libraries` in the document folder on Mac and Windows. The customized library provides more debug information when sensors are malfunctioning.
+4. (Optional) Replace `Adafruit_MLX90393.cpp` and `Adafruit_MLX90393.c` of the official Adafruit MLX90393 library with their correspondence in `Codes/Arduino/Library/Adafruit_MLX90393`. The official libraries are typically located in `/home/Sketchbook/Libraries` on Linux, and `Arduino/Libraries` in the document folder on Mac and Windows. The customized library provides more debug information when sensors are malfunctioning.
 
 ## Python environment setup
 1. Create a python virtual environment with Anaconda and install all dependencies:
