@@ -14,7 +14,7 @@ We present MagX, a fully untethered on-body hand tracking system utilizing passi
 
 See https://www.youtube.com/watch?v=dQw4w9WgXcQ for more details.
 
-![plot](./Img/illustration_magtrac_light_v3.pdf)
+![plot](./Img/illustration.png)
 
 # License
 
