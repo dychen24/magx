@@ -28,7 +28,7 @@ name = ['Time Stamp', 'Sensor 1', 'Sensor 2', 'Sensor 3',
 def clean():
     print("Output csv")
     test = pd.DataFrame(columns=name, data=result)
-    test.to_csv("demo_still.csv")
+    test.to_csv("file_name.csv")
     print("Exited")
 
 
@@ -63,13 +63,6 @@ async def run(address, loop):
         while True:
             await asyncio.sleep(0.01)
 
-            # data = await client.read_gatt_char(UART_TX_UUID)
-
-
-# print("Hello world")
-# 02ECCB4C-BA71-4726-8F0D-411F5CFA5246: Bluefruit52
-
-address = ("E3B8AC1C-9ECD-4B7A-8F12-A5EEDBC46A60")
 address = ("2A59A2D4-BCD8-4AF7-B750-E51195C1CA13")
 loop = asyncio.get_event_loop()
 loop.run_until_complete(run(address, loop))
