@@ -12,7 +12,7 @@ As a brief summary, accurate tracking of the hands and fingers allows users to e
 
 We present MagX, a fully untethered on-body hand tracking system utilizing passive magnets and a novel magnetic sensing platform.  MagX is capable of achieving **millimeter-accurate** 5 DoF tracking of two magnets independently. For example, at 11 cm distance, a 6cm*6cm sensing array can achieve positional and orientational errors of 0.76 cm and 0.11 rad. At 21 cm distance, the tracking errors are 2.65 cm and 0.41 rad. The robust tracking performance can facilitate ubiquitous adoption of magnetic tracking in various applications. Furthermore, MagX can perform all compute locally and only requires ~0.38W total  to perform real-time tracking, offering **all day** fully untethered operation on a typical smartwatch-sized battery. 
 
-See [this video](https://www.youtube.com/watch?v=dQw4w9WgXcQ） for more details.
+See [This Video](https://www.youtube.com/watch?v=dQw4w9WgXcQ)  for more details.
 
 ![plot](./Img/illustration.png)
 
