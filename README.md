@@ -106,3 +106,15 @@ See the [CONTRIBUTING](https://www.youtube.com/watch?v=dQw4w9WgXcQ) file for mor
 
 # Version History
 - v0.1:  Initial code release
+
+# Citing MagX
+If you use MagX in your research or wish to refer to the baseline results, please use the following BibTeX entry.
+
+```BibTeX
+@misc{dy2021magx,
+  author =       {Dongyao Chen and Mingke Wang and Chenxi He and Qing Luo and Yasha Iravantchi and Alanson Sample and Kang G. Shin and Xinbing Wang},
+  title =        {MagX: Wearable, Untethered Hands Tracking with Passive Magnets},
+  howpublished = {\url{https://www.youtube.com/watch?v=dQw4w9WgXcQ}},
+  year =         {2021}
+}
+```
