@@ -25,12 +25,13 @@ MagX is licensed under the MIT license included in the [LICENSE](./LICENSE) file
 To use MagX, you'll need the following tools and hardwares:
   * [MagX sensing array](#magx-sensing-array-manufacturing)
   * [Arduino IDE](#arduino-ide-setup)
-  * [conda](#python-environment-setup)
+  * [Anaconda](#python-environment-setup)
+  * Homebrew for macOS
 
 The instructions below have been tested using macOS Big Sur, and Ubuntu 20.04. 
 
 ## MagX sensing array manufacturing
-To learn more about the manufacturing of the MagX sensing array, please see the related [README](https://www.youtube.com/watch?v=dQw4w9WgXcQ) file in `/PCB`.
+To learn more about the manufacturing of the MagX sensing array, please see the related [README](./pcb/README.md) file in `/pcb`.
 
 ## Arduino IDE setup
 1. Download and install [Arduino IDE](https://www.arduino.cc/en/software)
@@ -48,7 +49,7 @@ To learn more about the manufacturing of the MagX sensing array, please see the 
 conda create -y -n magtrack python=3.7
 conda activate magtrack
 pip install filterpy matplotlib tqdm scikit-learn numpy datetime scipy pybind11 codetiming bleak sympy lmfit torch torchvision torchaudio
-pip install pandas, keyboard, torchsummary, parse, pyqt5
+pip install pandas keyboard torchsummary parse pyqt5
 ```
 2. Install ceres solver
 * For macOS, run `brew install ceres-solver`
