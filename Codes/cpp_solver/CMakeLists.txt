@@ -23,7 +23,3 @@ target_link_libraries(cppsolver PRIVATE ${CERES_LIBRARIES})
 # define (VERSION_INFO) here.
 target_compile_definitions(cppsolver PRIVATE VERSION_INFO=${EXAMPLE_VERSION_INFO})
 
-
-add_executable(test_eigen src/test_eigen.cpp)
-target_link_libraries(cppsolver PRIVATE ${CERES_LIBRARIES})
-
