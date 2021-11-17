@@ -1,3 +1,0 @@
-Comment,Description,Designator,Footprint,LibRef,Pins,Quantity
-0.1uF,capacitance,"C30_2,CSD,CSD_2,CSC,CSC_2,C30,C27,C27_2",CAP_0603,CAP,2,8
-MLX90393,sensor,"MSSD,MSSC,MS30,MS27",MLX90393,MLX90393SLW ABA 011 RE,17,4
