@@ -12,8 +12,6 @@ As a brief summary, accurate tracking of the hands and fingers allows users to e
 
 We present MagX, a fully untethered on-body hand tracking system utilizing passive magnets and a novel magnetic sensing platform.  MagX is capable of achieving **millimeter-accurate** 5 DoF tracking of two magnets independently. For example, at 11 cm distance, a 6cm*6cm sensing array can achieve positional and orientational errors of 0.76 cm and 0.11 rad. At 21 cm distance, the tracking errors are 2.65 cm and 0.41 rad. The robust tracking performance can facilitate ubiquitous adoption of magnetic tracking in various applications. Furthermore, MagX can perform all compute locally and only requires ~0.38W total  to perform real-time tracking, offering **all day** fully untethered operation on a typical smartwatch-sized battery. 
 
-See [This Video](https://www.youtube.com/watch?v=dQw4w9WgXcQ)  for more details.
-
 ![plot](./Img/illustration.png)
 
 # License
@@ -112,10 +110,20 @@ See the [CONTRIBUTING](https://www.youtube.com/watch?v=dQw4w9WgXcQ) file for mor
 If you use MagX in your research or wish to refer to the baseline results, please use the following BibTeX entry.
 
 ```BibTeX
-@misc{dy2021magx,
-  author =       {Dongyao Chen and Mingke Wang and Chenxi He and Qing Luo and Yasha Iravantchi and Alanson Sample and Kang G. Shin and Xinbing Wang},
-  title =        {MagX: Wearable, Untethered Hands Tracking with Passive Magnets},
-  howpublished = {\url{https://www.youtube.com/watch?v=dQw4w9WgXcQ}},
-  year =         {2021}
+@inproceedings{MagX2021,
+  author    = {Chen, Dongyao and Wang, Mingke and He, Chenxi and Luo, Qing and Iravantchi, Yasha and Sample, Alanson and Shin, Kang G. and Wang, Xinbing},
+  title     = {MagX: Wearable, Untethered Hands Tracking with Passive Magnets},
+  year      = {2021},
+  isbn      = {9781450383424},
+  publisher = {Association for Computing Machinery},
+  address   = {New York, NY, USA},
+  url       = {https://doi.org/10.1145/3447993.3483260},
+  doi       = {10.1145/3447993.3483260},
+  booktitle = {Proceedings of the 27th Annual International Conference on Mobile Computing and Networking},
+  pages     = {269–282},
+  numpages  = {14},
+  keywords  = {untethered, hand tracking, magnetic sensing},
+  location  = {New Orleans, Louisiana},
+  series    = {MobiCom '21}
 }
 ```
