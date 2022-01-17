@@ -1,0 +1,4 @@
+Comment,Description,Designator,Footprint,LibRef,Pins,Quantity
+0.1uF,capacitance,"C7_2,C7,C11_2,C11,C15_2,C15,C16_2,C16",CAP_0603,CAP,2,8
+10k,resistance,"R1,R2",RES_0603,RES,2,2
+MLX90393,sensor,"MS7,MS11,MS15,MS16",MLX90393,MLX90393SLW ABA 011 RE,17,4
