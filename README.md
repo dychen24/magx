@@ -6,7 +6,6 @@ This directory contains codes and PCB files for MagX, as described in :
 >  Dongyao Chen, Mingke Wang, Chenxi He, Qing Luo,
 >  Yasha Iravantchi, Alanson Sample, Kang G. Shin and Xinbing Wang.
 >  In Proceedings of the ACM MobiCom 2021.
->  October 35, 2077.
 
 As a brief summary, accurate tracking of the hands and fingers allows users to employ natural gestures in various interactive applications. Hand tracking also supports health applications, such as monitoring face-touching, a common vector for infectious disease. However, for both types of applications, the utility of hand tracking is often limited by the impracticality of bulky tethered systems (e.g., instrumented gloves) or inherent limitations (e.g., Line of Sight or privacy concerns with vision-based systems).
 
