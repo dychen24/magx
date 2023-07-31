@@ -1,0 +1,1 @@
+address = ("C2:3C:D5:6E:35:0A")  # joint board 2
