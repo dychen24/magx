@@ -31,7 +31,9 @@ def clean():
     print("Output csv")
     test = pd.DataFrame(columns=name, data=result)
     # test.to_csv("Code/read_raw_ble/sensor_reading_0607_red_1.csv")
-    test.to_csv("10sensor.csv")
+    test.to_csv(
+        f"datasets\\moveright\\moveright-{datetime.datetime.now().strftime('%Y-%m-%d-%H-%M-%S')}.csv"
+    )
     print("Exited")
 
 
