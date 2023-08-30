@@ -15,6 +15,8 @@
 ## Gesture sample guidelines
 * The finger moves from the far side to a position close to the face when the gesture is captured, the corresponding gesture is executed only once, and the finger stays near the face at the end of the gesture.
 * Collect at least 15 samples for each gesture.
+* Wear the sensor on the left side of the face like this, the outer edge of the sensor fits the jawline
+![example](example.png)
 ## Static gestures
 * Index finger touch the left cheek
 * Index finger touch the left jaw
