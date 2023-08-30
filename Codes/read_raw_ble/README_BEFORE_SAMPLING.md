@@ -18,12 +18,12 @@
 * Wear the sensor on the left side of the face like this, the outer edge of the sensor fits the jawline
 ![example](example.png)
 ## Static gestures
-* Index finger touch the left cheek
-* Index finger touch the left jaw
-* Index finger touch the left eye
-* Index finger touch the right cheek
-* Index finger touch the right jaw
-* Index finger touch the right eye
+* Index finger touches the left cheek
+* Index finger touches the left jaw
+* Index finger touches the left eye
+* Index finger touches the right cheek
+* Index finger touches the right jaw
+* Index finger touches the right eye
 ## Dynamic gestures
 * A gentle tap on the cheek
 * A light stroke of the fingertips along the jawline
