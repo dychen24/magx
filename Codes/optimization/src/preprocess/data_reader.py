@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 from datetime import datetime
 from parse import parse
 from ..filter import mean_filter
+from datetime import datetime
 
 # New method
 
@@ -304,6 +305,10 @@ class Calibrate_Data:
         # offset = offset.reshape(1, -1)
         scale = np.stack([scaleX, scaleY, scaleZ], axis=0).T
         # scale = scale.reshape(1, -1)
+        # wsy0227 save to numpy
+        current_time = datetime.now().strftime("%Y-%m-%d-%H-%M-%S")
+        np.save(f"mytest/offset-{current_time}.npy",offset)
+        np.save(f"mytest/scale-{current_time}", scale)
         return [offset, scale]
 
     def show_cali_result(self):
