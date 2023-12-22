@@ -2,7 +2,7 @@
 
 This directory contains codes and PCB files for MagX, as described in :
 
->  [_MagX: Wearable, Untethered Hands Tracking with Passive Magnets_](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+>  [_MagX: Wearable, Untethered Hands Tracking with Passive Magnets_]
 >  Dongyao Chen, Mingke Wang, Chenxi He, Qing Luo,
 >  Yasha Iravantchi, Alanson Sample, Kang G. Shin and Xinbing Wang.
 >  In Proceedings of the ACM MobiCom 2021.
@@ -98,9 +98,6 @@ pip install pandas keyboard torchsummary parse pyqt5
 
 See the [Codes](./Codes/codes.md) file for more details on the various files in the repository.
 
-# Contributing
-
-See the [CONTRIBUTING](https://www.youtube.com/watch?v=dQw4w9WgXcQ) file for more details.
 
 # Version History
 - v0.1:  Initial code release

@@ -16,7 +16,7 @@ async def timer(timeout):
 async def main():
     global ADDRESS
     ADDRESS = "C2:3C:D5:6E:35:0A"  # joint board 2
-    time_window = 50
+    time_window = 90
     # time_window = 2.5
     try:
         await asyncio.gather(
